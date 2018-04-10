@@ -9,6 +9,9 @@ Mniejsza próbka danych (100 tys. rekordów) znajduje się pod tym [linkiem](htt
 ## Wstępne wymagania
 
 Na komputerze musi działać serwer MongoDB włączany komendą <code>mongod</code>. Włączamy bez dodatkowych opcji.
+Po uruchomieniu serwera używamy skrytu import.sh. 
+Skrypt wymaga pliku z danymi o nazwie 'titles.csv' w tym samym katalogu.
+Po wykonaniu skryptu mamy już działającą bazę danych, na której możemy pracować.
 
 ## Kompilacja
 
@@ -19,3 +22,13 @@ csc /r:"MongoDB.Driver.dll" /r:"MongoDB.Bson.dll" InsertOne.cs
 </code>
 
 W wyniku kompilacji pojawia się plik wykonywalny, który włączamy z linii poleceń podając ewentualne argumenty.
+
+
+## Użytkowanie
+
+- InsertOne
+<p>
+  Skrypt możemy włączyć bez parametrów i po uruchomieniu zostaniemy zapytani o dane (tytuł artykułu).
+  Drugim sposobem jest podanie danych w argumencie programu.
+  Po uzyskaniu napisu skrypt dodaje wpis do bazy danych.
+</p>
