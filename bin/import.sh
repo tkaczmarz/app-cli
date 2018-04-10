@@ -6,4 +6,4 @@ plik="titles.csv"
 
 mongo $baza --eval "db.$kolekcja.drop()"
 
-mongoimport -d $baza -c $kolekcja --type csv --file titles.csv --headerline
+mongoimport -d $baza -c $kolekcja --type csv --file $plik -f title
