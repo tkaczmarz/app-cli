@@ -39,3 +39,9 @@ W wyniku kompilacji pojawia się plik wykonywalny, który włączamy z linii pol
   Drugim sposobem jest podanie danych w argumencie programu.
   Po uzyskaniu napisu skrypt dodaje wpis do bazy danych.
 </p>
+
+- Find
+<p>
+  Skrypt włączony bez argumentów liczy wszystkie rekordy w bazie danych.
+  Po podaniu parametru wyszukuje danego tytułu w bazie.
+</p>
