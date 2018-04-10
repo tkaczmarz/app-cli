@@ -6,6 +6,13 @@ Dane w formacie CSV można pobrać z linku: [Dane](https://drive.google.com/open
 
 Mniejsza próbka danych (100 tys. rekordów) znajduje się pod tym [linkiem](https://drive.google.com/file/d/1y8aR5f2grL3kfurC-VD03TzdJW845C4Y/view?usp=sharing).
 
+Przykładowy JSON z bazy:
+```
+{
+	title: "!Amigos!"
+}
+```
+
 ## Wstępne wymagania
 
 Na komputerze musi działać serwer MongoDB włączany komendą <code>mongod</code>. Włączamy bez dodatkowych opcji.
