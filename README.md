@@ -13,7 +13,9 @@ Na komputerze musi działać serwer MongoDB włączany komendą <code>mongod</co
 ## Kompilacja
 
 Skrypty kompilujemy wykorzystując kompilator c#, czyli csc. Do kompilacji dodajemy referencje do sterowników MongoDB. Przykład:
-<code c#>
+
+<code>
 csc /r:"MongoDB.Driver.dll" /r:"MongoDB.Bson.dll" InsertOne.cs
 </code>
+
 W wyniku kompilacji pojawia się plik wykonywalny, który włączamy z linii poleceń podając ewentualne argumenty.
