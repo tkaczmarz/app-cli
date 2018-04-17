@@ -45,3 +45,9 @@ W wyniku kompilacji pojawia się plik wykonywalny, który włączamy z linii pol
   Skrypt włączony bez argumentów liczy wszystkie rekordy w bazie danych.
   Po podaniu parametru wyszukuje danego tytułu w bazie.
 </p>
+
+## Sizer
+
+Oto wynik wykonania polecenia git sizer.
+
+![sizer](screen/git-sizer.png)
