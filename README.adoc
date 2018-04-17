@@ -12,7 +12,7 @@
 |Średnia|65.703|96.188|5.528
 |===
 
-![standalone](screen/standalone.png)
+image::screen/standalone.png[standalone]
 Wykorzystanie procesora w trakcie importowania danych do bazy standalone.
 
 Zmniejszyłem ilość danych do 100 tysięcy ze względu na ekstremalnie długie czasy importów.
@@ -84,7 +84,7 @@ Zmniejszyłem ilość danych do 100 tysięcy ze względu na ekstremalnie długie
 |Średnia|14.567|3.134|0.352
 |===
 
-![replica](screen/replica-set.png)
+image::screen/replica-set.png[replica]
 Wykorzystanie procesora w trakcie importowania danych do bazy replica set.
 
 Jak widać czas rzeczywisty potrafi być nawet czterokrotnie większy od czasu użytkownika. Związane jest to z liczbą fizycznych rdzeni procesora. Pomiar wykonany został na maszynie z procesorem czterordzeniowym.
@@ -103,7 +103,7 @@ Jak widać czas rzeczywisty potrafi być nawet czterokrotnie większy od czasu u
 |Średnia|25.815|64.216|3.341
 |===
 
-![standalone_pktadr](screen/standalone_pktadr.png)
+image::screen/standalone_pktadr.png[standalone_pktadr]
 Wykorzystanie procesora w trakcie importowania danych do bazy standalone.
 
 [cols='1,1,2,2', options='header']
@@ -163,5 +163,5 @@ Wykorzystanie procesora w trakcie importowania danych do bazy standalone.
 |Średnia|62.967|57.349|3.998
 |===
 
-![standalone_pktadr replica](screen/replica-set_pktadr.png)
+image::screen/replica-set_pktadr.png[standalone_pktadr replica]
 Wykorzystanie procesora w trakcie importowania danych do bazy replica set.
