@@ -20,7 +20,7 @@ Po uruchomieniu serwera używamy skrytu import.sh.
 Skrypt wymaga pliku z danymi o nazwie 'titles.csv' w tym samym katalogu.
 Po wykonaniu skryptu mamy już działającą bazę danych, na której możemy pracować.
 
-## Kompilacja
+## Kompilacja skryptów
 
 Skrypty kompilujemy wykorzystując kompilator c#, czyli csc. Do kompilacji dodajemy referencje do sterowników MongoDB. Przykład:
 
